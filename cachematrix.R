@@ -1,3 +1,5 @@
+## The computation of matrix inversion can benefit from the caching of the matrix inverse, solved through a pair of funcitons 'makeCachematrix' and 'cachesolve'. 
+
 ##This function can be used to cache the inverse of a matrix.
 
 makeCachematrix <- function(x = matrix()) {
